@@ -3,8 +3,8 @@
 		@if (Route::currentRouteName() !== 'home')
 			<a href="{{ route('home') }}">HOME</a>
 		@endif
-		@if (Route::currentRouteName() !== 'comics')
-			<a href="{{ route('comics') }}">COMICS LIST</a>
+		@if (Route::currentRouteName() !== 'comics.index')
+			<a href="{{ route('comics.index') }}">COMICS LIST</a>
 		@endif
 	</div>
 </header>

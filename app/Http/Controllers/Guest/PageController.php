@@ -21,6 +21,6 @@ class PageController extends Controller
         $data = [
             "comics" => $comics
         ];
-        return view('comics', $data);
+        return view('comics.index', $data);
     }
 }
