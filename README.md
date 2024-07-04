@@ -15,7 +15,7 @@ Per concludere gestite i link:
 dall'header linkate al catalogo e al form di creazione
 dal catalogo collegate ogni gioco alla sua pagina di dettaglio.
 
-Attenzione: create() dovrà restituirà una vista come gli altri metodi. Questa vista ha un form, inanimato, non funzionante. Non dovrete davvero salvare i dati sul db, solo mostare un form che renderemo funzionante domani. :occhiolino:
+Attenzione: create() dovrà restituirà una vista come gli altri metodi. Questa vista ha un form, inanimato, non funzionante. Non dovrete davvero salvare i dati sul db, solo mostare un form che renderemo funzionante domani. 
 
 BONUS
 Dopo averlo committato, modificate il seeder. Invece di usare Faker questa volta importate l'array in allegato (potete metterlo in config).
