@@ -8,7 +8,7 @@
 				<div class="card-body">
 					<h5 class="card-title">{{ $comic->title }}</h5>
 					<p class="card-text">{{ $comic->description }}</p>
-					<a href="#" class="btn btn-primary">Go somewhere</a>
+					<a href="{{ route('comics.show', $comic->id) }}" class="btn btn-primary">more details</a>
 				</div>
 			</div>
 		@endforeach
