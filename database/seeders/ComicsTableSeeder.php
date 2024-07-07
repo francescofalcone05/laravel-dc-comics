@@ -24,8 +24,6 @@ class ComicsTableSeeder extends Seeder
             $newComic->series = $faker->words(3, true);
             $newComic->sale_date = $faker->dateTimeBetween();
             $newComic->type = $faker->words(3, true);
-            $newComic->artists = $faker->name();
-            $newComic->writers = $faker->name();
             $newComic->save();
         }
     }
